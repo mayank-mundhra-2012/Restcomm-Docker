@@ -39,7 +39,7 @@ echo -e "''" > /etc/container_environment/RCBCONF_SMS_PREFIX
 echo -e "d5506b27541a4ec9890ac306afece49a" > /etc/container_environment/RCBCONF_VOICERSS_KEY
 
 #RVD_LOCATION
-echo -e "/var/restcomm/rvd/workspace" > /etc/container_environment/RCADVCONF_RVD_LOCATION
+echo -e "/home/mmundhra-dn1/app/rvd" > /etc/container_environment/RCADVCONF_RVD_LOCATION
 
 #HSQL-persist data - Need to mount this path on the host. else data is not persistent.
 echo -e "/var/restcomm/data" > /etc/container_environment/RCADVCONF_HSQL_DIR
